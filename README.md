@@ -275,7 +275,7 @@ Proyek ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) unt
 ```
 MIT License
 
-Copyright (c) 2024 Diabetes Prediction Project
+Copyright (c) 2025 Diabetes Prediction Project
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
