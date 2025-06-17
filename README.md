@@ -146,11 +146,7 @@ results = predictor.predict_from_csv('data/new_patients.csv')  # Contoh
 print(results.head())
 ```
 
-### 3. Menjalankan Jupyter Notebook
 
-```bash
-jupyter notebook notebooks/02_model_development.ipynb
-```
 
 ##  Hasil dan Performa Model
 
@@ -307,7 +303,7 @@ SOFTWARE.
 
 **Maintainer**: rexzea
 -  Email: futzfary@gmail.com
--  GitHub: [@rexzea]([https://github.com/yourusername](https://github.com/rexzea?fbclid=PAQ0xDSwKnNYBleHRuA2FlbQIxMQABpzZj-DhcoKT7nJAlQajpUiZYp12dgNSQBjbwLm6WEuqEizn5dMk8MFLGsF2u_aem_TvFDhNFn8BEO-3EyK1iH0A ))
+-  GitHub: [rexzea](https://github.com/rexzea?fbclid=PAQ0xDSwKnNYBleHRuA2FlbQIxMQABpzZj-DhcoKT7nJAlQajpUiZYp12dgNSQBjbwLm6WEuqEizn5dMk8MFLGsF2u_aem_TvFDhNFn8BEO-3EyK1iH0A )
 
 
 **Project Link**: [https://github.com/rexzea/diabetes-prediction-deep-learning](https://github.com/rexzea/diabetes-prediction-deep-learning)
