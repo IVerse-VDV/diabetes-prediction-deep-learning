@@ -77,7 +77,7 @@ The model is evaluated using multiple performance metrics including **accuracy**
 
 ##  License
 
-Proyek ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) untuk detail.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ```
 MIT License
