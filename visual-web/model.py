@@ -248,8 +248,6 @@ class DiabetesTrainer:
 
             # Pass the input tensor through the model to get the predicted probability
             probability = self.model(X_tensor)
-
-            # If it's a single sample, return a scalar float value
             if X_tensor.shape[0] == 1:
                 return float(probability.item())
             else:
