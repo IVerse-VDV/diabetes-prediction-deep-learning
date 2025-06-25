@@ -10,11 +10,11 @@
 
 ## Project Description
 
-This project develops a deep learning model to predict the likelihood of diabetes based on patients' medical data. The model is built using a neural network architecture with optimization techniques, regularization methods, and performance-enhancing strategies to achieve solid baseline accuracy for binary classification tasks.
+This project develops a deep learning model to predict the likelihood of diabetes based on patients medical data. The model is built using a neural network architecture with optimization techniques, regularization methods, and performancestrategies to achieve solid baseline accuracy for binary classification tasks.
 
 ### Objectives
 
-The main goals are to build a reliable and accurate diabetes prediction model, apply deep learning best practices for medical datasets, and provide a user-friendly tool for making predictions on new data. The project also aims to offer insights into key medical factors associated with diabetes and identify whether a person is likely to have diabetes.
+The main goals are to build a reliable and accurate diabetes prediction model, apply deep learning best practices for medical datasets, and provide a user friendly tool for making predictions on new data. The project also aims to offer insights into key medical factors associated with diabetes and identify whether a person is likely to have diabetes.
 
 ## Dataset
 
@@ -45,7 +45,7 @@ To ensure effective and stable model training, several strategies are implemente
 
 ## Analysis
 
-The model is evaluated using multiple performance metrics including **accuracy**, **precision**, **recall**, and **F1-score** to provide a well-rounded understanding of its behavior. Visual tools such as **training curves**, **confusion matrices**, and **ROC curves** are used to interpret model behavior and diagnostics. **Feature importance** analysis helps identify which features most significantly influence predictions. A **model comparison** section benchmarks our deep learning model against simpler baseline models to highlight its strengths and areas of improvement.
+The model is evaluated using multiple performance metrics including **accuracy**, **precision**, **recall**, and **F1-score** to provide a well rounded understanding of its behavior. Visual tools such as **training curves**, **confusion matrices**, and **ROC curves** are used to interpret model behavior and diagnostics. **Feature importance** analysis helps identify which features most significantly influence predictions. A **model comparison** section benchmarks our deep learning model against simpler baseline models to highlight its strengths and areas of improvement.
 
 
 
