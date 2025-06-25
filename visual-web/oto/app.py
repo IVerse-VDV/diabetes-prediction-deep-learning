@@ -123,7 +123,7 @@ class DiabetesPredictor(nn.Module):
 @st.cache_data
 def load_and_prepare_data():
     try:
-        df = pd.read_csv('diabetes.csv')
+        df = pd.read_csv('dataset/diabetes.csv')
         
         # data cleaning ---- replace 0s with median for certain columns
         columns_to_replace = ['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']
@@ -147,7 +147,6 @@ def load_and_prepare_data():
 
 @st.cache_resource
 def train_model(X_train, y_train, X_test, y_test):
-    """Train the PyTorch model"""
     # init model
     model = DiabetesPredictor()
     criterion = nn.BCELoss()
@@ -282,8 +281,11 @@ def main():
         st.markdown("### Dataset Information")
         st.info(f"""
         **Total Samples:** {len(df)}
+        
         **Features:** {len(feature_columns)}
+        
         **Diabetic Cases:** {df['Outcome'].sum()} ({df['Outcome'].mean():.1%})
+        
         **Non-Diabetic Cases:** {len(df) - df['Outcome'].sum()} ({(1-df['Outcome'].mean()):.1%})
         """)
         st.markdown("### Feature Importance")
@@ -341,11 +343,23 @@ def main():
   
     st.markdown("---")
     st.markdown("""
-    <div style='text-align: center; color: #666; padding: 2rem;'>
+    <div style='text-align: center; color: #555; padding: 2rem 0 1rem 0; font-family: "Segoe UI", sans-serif; font-size: 15px;'>
         <p>Rexzea - <strong>Diabetes Predictor</strong> - Powered by PyTorch & Streamlit</p>
         <p><em>Note: This tool is for educational purposes only. Please consult healthcare professionals for medical advice.</em></p>
+        <p>
+            <a href="https://github.com/rexzea" target="_blank" style="text-decoration: none; color: #007acc; margin-right: 15px;">
+                GitHub
+            </a>
+            |
+            <a href="https://www.instagram.com/alzennora?igsh=Ym8wZHFjcWRxaWhx" target="_blank" style="text-decoration: none; color: #007acc; margin-left: 15px;">
+                Instagram
+            </a>
+        </p>
     </div>
     """, unsafe_allow_html=True)
+
+
+
 
 
 
