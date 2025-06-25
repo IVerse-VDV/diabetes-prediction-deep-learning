@@ -7,6 +7,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+![Preview](assets/home.png)
 
 ## Project Description
 
@@ -17,6 +18,8 @@ This project develops a deep learning model to predict the likelihood of diabete
 The main goals are to build a reliable and accurate diabetes prediction model, apply deep learning best practices for medical datasets, and provide a user friendly tool for making predictions on new data. The project also aims to offer insights into key medical factors associated with diabetes and identify whether a person is likely to have diabetes.
 
 ## Dataset
+
+![Preview](assets/diabetes-distribution.png)
 
 We use the **Pima Indians Diabetes Database**, which contains medical records from 768 women aged 21 and above from the Pima Indian heritage. The dataset includes 8 numeric input features and a binary output (`Outcome`) indicating diabetes status (0 for non-diabetic, 1 for diabetic). Features include the number of pregnancies, glucose level, blood pressure, skin thickness, insulin level, BMI, diabetes pedigree function, and age. The dataset is moderately imbalanced, with approximately 65% non-diabetic and 35% diabetic samples.
 
@@ -33,6 +36,9 @@ We use the **Pima Indians Diabetes Database**, which contains medical records fr
 | `DiabetesPedigreeFunction`| Diabetes pedigree function                            | -         |
 | `Age`                      | Age of the person                                     | years     |
 | `Outcome`                  | Class variable (0: Non-diabetic, 1: Diabetic)         | -         |
+
+
+
 
 ## Key Features
 
