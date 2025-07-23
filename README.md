@@ -115,6 +115,7 @@ SOFTWARE.
 **Maintainer**: rexzea
 -  Email: futzfary@gmail.com
 -  GitHub: [rexzea](https://github.com/rexzea?fbclid=PAQ0xDSwKnNYBleHRuA2FlbQIxMQABpzZj-DhcoKT7nJAlQajpUiZYp12dgNSQBjbwLm6WEuqEizn5dMk8MFLGsF2u_aem_TvFDhNFn8BEO-3EyK1iH0A )
+-  Telp: 08988610455
 
 
 **Project Link**: [https://github.com/rexzea/diabetes-prediction-deep-learning](https://github.com/rexzea/diabetes-prediction-deep-learning)
